@@ -18,7 +18,6 @@ class SearchView(FormView):
 
         data = form.save()
         if data:
-
             # return redirect('result', {'mail': data['mail']})
             return render(self.request, 'result.html',
                           {'mail': data['mail']})

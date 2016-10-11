@@ -1,8 +1,6 @@
 from django import forms
-from search_engine.models import *
 import logging
-from django.core.mail import send_mail
-from django.template.response import SimpleTemplateResponse
+from search_engine.tasks import send_message
 
 
 logger = logging.getLogger('custom')
@@ -18,28 +16,8 @@ class SearchForm(forms.Form):
         text = self.data.get('text', None)
         mail = self.data.get('mail', None)
         if text is not None and mail is not None:
-            page = Page.objects.get_page(text)
-            logger.info('Result found in the database.')
-            message = SimpleTemplateResponse('message.html',
-                                             {'text': text,
-                                              'page': page},
-                                             content_type='text/html; '
-                                                          'charset="utf-8"')
-            message.render()
-            try:
-                send_mail(
-                    'Результаты поиска.',
-                    message.content.decode('utf-8'),
-                    'natasha.kuskova@gmail.com',
-                    [mail],
-                    fail_silently=False,
-                    html_message=message.content.decode('utf-8')
-                )
-                logger.info('Message sent successfully.')
+            if send_message.apply_async(args=[text, mail], soft_time_limit=0.002):
                 return {'mail': mail}
-            except:
-                logger.error('Something went wrong. Message not sent.')
-                return False
         logger.error('Text or email value are empty.')
         return False
 

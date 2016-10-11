@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/1.10/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.10/ref/settings/
 """
-
+from __future__ import absolute_import
 import os
 import logging.config
 
@@ -37,6 +37,22 @@ DEFAULT_FROM_EMAIL = "natasha.kuskova@gmail.com"
 SERVER_EMAIL = "natasha.kuskova@gmail.com"
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+
+
+# CELERY SETTINGS
+BROKER_URL = 'redis://localhost:6379/0'
+CELERY_ACCEPT_CONTENT = ['json']
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
+
+# CELERYBEAT_SCHEDULE = {
+#     'add-every-morning': {
+#         'task': 'search_img.tasks.send_message',
+#         'schedule': crontab(minute=0, hour=0),
+#         # 'args': (16, 16)
+#     },
+# }
+CELERY_TIMEZONE = 'UTC'
 
 
 # Application definition

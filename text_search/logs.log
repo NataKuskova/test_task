@@ -14,3 +14,45 @@ forms.py[LINE:25]# INFO     [2016-10-11 09:05:47,039]  Result found in the datab
 forms.py[LINE:40]# INFO     [2016-10-11 09:05:49,046]  Message sent successfully.
 forms.py[LINE:25]# INFO     [2016-10-11 09:18:22,590]  Result found in the database.
 forms.py[LINE:41]# INFO     [2016-10-11 09:18:24,443]  Message sent successfully.
+tasks.py[LINE:17]# INFO     [2016-10-11 09:54:57,004]  Result found in the database.
+tasks.py[LINE:33]# INFO     [2016-10-11 09:54:59,000]  Message sent successfully.
+tasks.py[LINE:17]# INFO     [2016-10-11 09:57:15,439]  Result found in the database.
+tasks.py[LINE:33]# INFO     [2016-10-11 09:57:17,132]  Message sent successfully.
+tasks.py[LINE:17]# INFO     [2016-10-11 09:57:36,887]  Result found in the database.
+tasks.py[LINE:33]# INFO     [2016-10-11 09:57:38,674]  Message sent successfully.
+tasks.py[LINE:17]# INFO     [2016-10-11 09:58:10,425]  Result found in the database.
+tasks.py[LINE:33]# INFO     [2016-10-11 09:58:12,128]  Message sent successfully.
+tasks.py[LINE:17]# INFO     [2016-10-11 10:01:33,858]  Result found in the database.
+tasks.py[LINE:33]# INFO     [2016-10-11 10:01:35,539]  Message sent successfully.
+tasks.py[LINE:17]# INFO     [2016-10-11 10:03:36,059]  Result found in the database.
+tasks.py[LINE:33]# INFO     [2016-10-11 10:03:37,930]  Message sent successfully.
+tasks.py[LINE:17]# INFO     [2016-10-11 11:57:27,634]  Result found in the database.
+tasks.py[LINE:33]# INFO     [2016-10-11 11:57:29,525]  Message sent successfully.
+tasks.py[LINE:17]# INFO     [2016-10-11 11:58:42,918]  Result found in the database.
+tasks.py[LINE:33]# INFO     [2016-10-11 11:58:44,873]  Message sent successfully.
+tasks.py[LINE:17]# INFO     [2016-10-11 12:30:53,311]  Result found in the database.
+tasks.py[LINE:33]# INFO     [2016-10-11 12:30:55,275]  Message sent successfully.
+tasks.py[LINE:21]# INFO     [2016-10-11 12:31:48,127]  The result found in the database in 0 seconds.
+tasks.py[LINE:37]# INFO     [2016-10-11 12:31:49,790]  Message sent successfully.
+tasks.py[LINE:21]# INFO     [2016-10-11 12:36:32,774]  The result found in the database in 0 seconds.
+tasks.py[LINE:37]# INFO     [2016-10-11 12:36:34,683]  Message sent successfully.
+tasks.py[LINE:21]# INFO     [2016-10-11 12:36:58,690]  The result found in the database in 0.026577472686767578 seconds.
+tasks.py[LINE:37]# INFO     [2016-10-11 12:37:00,379]  Message sent successfully.
+tasks.py[LINE:24]# INFO     [2016-10-11 13:04:42,740]  The result found in the database in 0.0037271976470947266 seconds.
+tasks.py[LINE:43]# ERROR    [2016-10-11 13:04:42,789]  Something went wrong. Message not sent.
+tasks.py[LINE:24]# INFO     [2016-10-11 13:25:52,124]  The result found in the database in 0.0039653778076171875 seconds.
+tasks.py[LINE:43]# ERROR    [2016-10-11 13:25:52,252]  Something went wrong. Message not sent.
+tasks.py[LINE:25]# INFO     [2016-10-11 13:26:18,147]  The result found in the database in 0.016711950302124023 seconds.
+tasks.py[LINE:25]# INFO     [2016-10-11 13:36:32,201]  The result found in the database in 0.0042841434478759766 seconds.
+tasks.py[LINE:45]# ERROR    [2016-10-11 13:36:32,223]  Something went wrong. Message not sent.
+tasks.py[LINE:26]# INFO     [2016-10-11 13:38:46,617]  The result found in the database in 0.005270957946777344 seconds.
+tasks.py[LINE:46]# ERROR    [2016-10-11 13:38:46,634]  Something went wrong. Message not sent.
+tasks.py[LINE:23]# INFO     [2016-10-11 13:40:29,363]  Page..................... [<Page: 1>, <Page: 2>, <Page: 3>].
+tasks.py[LINE:50]# ERROR    [2016-10-11 13:40:29,363]  SoftTimeLimitExceeded.
+tasks.py[LINE:23]# INFO     [2016-10-11 13:42:17,897]  Page..................... Гарри Поттер и философский камень.
+tasks.py[LINE:26]# INFO     [2016-10-11 13:42:17,897]  The result found in the database in 0.01212167739868164 seconds.
+tasks.py[LINE:50]# ERROR    [2016-10-11 13:42:17,914]  SoftTimeLimitExceeded.
+tasks.py[LINE:31]# ERROR    [2016-10-11 13:49:16,265]  SoftTimeLimitExceeded.
+tasks.py[LINE:32]# INFO     [2016-10-11 13:49:16,266]  Page2222222222............... Гарри Поттер и философский камень.
+tasks.py[LINE:48]# INFO     [2016-10-11 13:49:18,361]  Message sent successfully.
+tasks.py[LINE:30]# INFO     [2016-10-11 14:05:15,550]  The result found in the database in 0.0044612884521484375 seconds.
