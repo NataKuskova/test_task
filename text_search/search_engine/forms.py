@@ -1,25 +1,17 @@
 from django import forms
 from search_engine.models import *
 import logging
+from django.core.mail import send_mail
+from django.template.response import SimpleTemplateResponse
 
 
-FORMAT = u'%(filename)s[LINE:%(lineno)d]# %(levelname)-8s ' \
-         u'[%(asctime)s]  %(message)s'
-logging.basicConfig(format=FORMAT, level=logging.DEBUG, filename=u'logs.log')
+logger = logging.getLogger('custom')
+logger.setLevel(logging.DEBUG)
 
 
 class SearchForm(forms.Form):
-    # class Meta:
-    #     widgets = {
-    #         'text': forms.TextInput(attrs=
-    #                                 {'placeholder':
-    #                                  'Что мы будем искать в книгах?'}),
-    #         'mail': forms.Textarea(
-    #             attrs={'placeholder':
-    #                    'Ваш e-mail для получения '
-    #                    'результатов поиска'}),
-    #     }
-    text = forms.CharField(widget=forms.Textarea(attrs={'placeholder': 'Что мы будем искать в книгах?'}))
+    text = forms.CharField(widget=forms.Textarea(
+        attrs={'placeholder': 'Что мы будем искать в книгах?'}))
     mail = forms.EmailField(widget=forms.EmailInput(attrs={'placeholder': 'Ваш e-mail для получения результатов поиска'}), max_length=100, required=True)
 
     def save(self):
@@ -27,11 +19,28 @@ class SearchForm(forms.Form):
         mail = self.data.get('mail', None)
         if text is not None and mail is not None:
             page = Page.objects.get_page(text)
-            logging.info('Result found in the database.')
-            return {'text': text,
-                    'page': page,
-                    'mail': mail}
-        logging.info('Text or email value are empty.')
+            logger.info('Result found in the database.')
+            message = SimpleTemplateResponse('message.html',
+                                             {'text': text,
+                                              'page': page},
+                                             content_type='text/html; '
+                                                          'charset="utf-8"')
+            message.render()
+            try:
+                send_mail(
+                    'Результаты поиска.',
+                    message.content.decode('utf-8'),
+                    'natasha.kuskova@gmail.com',
+                    [mail],
+                    fail_silently=False,
+                    html_message=message.content.decode('utf-8')
+                )
+                logger.info('Message sent successfully.')
+                return {'mail': mail}
+            except:
+                logger.error('Something went wrong. Message not sent.')
+                return False
+        logger.error('Text or email value are empty.')
         return False
 
 

@@ -6,7 +6,7 @@ from django.shortcuts import get_object_or_404, get_list_or_404
 class PageManager(models.Manager):
 
     def get_page(self, text):
-        return get_object_or_404(Page, text__icontains=text)
+        return get_list_or_404(Page, text__icontains=text)
 
 
 class Author(models.Model):

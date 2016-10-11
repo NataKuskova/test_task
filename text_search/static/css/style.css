@@ -1,0 +1,17 @@
+.content{
+    text-align: center;
+}
+h1{
+    font-size: 21px;
+    margin-bottom: 25px;
+}
+form #id_text{
+    width: 350px;
+    padding: 5px 10px;
+    height: 100px;
+}
+form #id_mail{
+    width: 350px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}

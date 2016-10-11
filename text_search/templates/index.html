@@ -2,8 +2,15 @@
 {% load staticfiles %}
 {% block title %}Поиск{% endblock %}
 {% block content %}
-    <form method="post" action="">{% csrf_token %}
-        {{form.as_p}}
-        <input type="submit" value='Поиск' name="search" class="button" id="search"/>
-    </form>
+    <div class="content">
+        <h1>Добро пожаловать в поискову систему книг!</h1>
+        <form method="post" action="">{% csrf_token %}
+            {#form.as_p#}
+            {% for field in form %}
+                {{ field }}<br>
+            {% endfor %}
+            <br>
+            <input type="submit" value='Поиск' name="search" class="button" id="search"/>
+        </form>
+    </div>
 {% endblock %}

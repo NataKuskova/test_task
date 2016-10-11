@@ -1,110 +1,16 @@
-exception.py[LINE:124]# ERROR    [2016-10-10 14:37:02,293]  Internal Server Error: /
-Traceback (most recent call last):
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/core/handlers/exception.py", line 39, in inner
-    response = get_response(request)
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
-    response = self.process_exception_by_middleware(e, request)
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
-    return handler(request, *args, **kwargs)
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/views/generic/edit.py", line 183, in post
-    return self.form_valid(form)
-  File "/home/user/Projects/test_task/text_search/search_engine/views.py", line 21, in form_valid
-    data = form.save()
-  File "/home/user/Projects/test_task/text_search/search_engine/forms.py", line 29, in save
-    page = Page.objects.get_page(text)
-  File "/home/user/Projects/test_task/text_search/search_engine/models.py", line 9, in get_page
-    return get_object_or_404(Page, text__icontains=text)
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/shortcuts.py", line 85, in get_object_or_404
-    return queryset.get(*args, **kwargs)
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/db/models/query.py", line 389, in get
-    (self.model._meta.object_name, num)
-search_engine.models.MultipleObjectsReturned: get() returned more than one Page -- it returned 4!
-forms.py[LINE:30]# INFO     [2016-10-10 14:37:57,093]  Result found in the database.
-views.py[LINE:39]# INFO     [2016-10-10 14:37:59,202]  Message sent successfully.
-exception.py[LINE:124]# ERROR    [2016-10-10 14:37:59,202]  Internal Server Error: /
-Traceback (most recent call last):
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/core/handlers/exception.py", line 39, in inner
-    response = get_response(request)
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
-    response = self.process_exception_by_middleware(e, request)
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
-    return handler(request, *args, **kwargs)
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/views/generic/edit.py", line 183, in post
-    return self.form_valid(form)
-  File "/home/user/Projects/test_task/text_search/search_engine/views.py", line 40, in form_valid
-    return redirect('result', {'mail': data['mail']})
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/shortcuts.py", line 56, in redirect
-    return redirect_class(resolve_url(to, *args, **kwargs))
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/shortcuts.py", line 147, in resolve_url
-    return reverse(to, args=args, kwargs=kwargs)
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
-    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/urls/resolvers.py", line 392, in _reverse_with_prefix
-    (lookup_view_s, args, kwargs, len(patterns), patterns)
-django.urls.exceptions.NoReverseMatch: Reverse for 'result' with arguments '({'mail': 'natasha.kuskova@gmail.com'},)' and keyword arguments '{}' not found. 1 pattern(s) tried: ['result/^$']
-forms.py[LINE:30]# INFO     [2016-10-10 14:39:23,808]  Result found in the database.
-views.py[LINE:39]# INFO     [2016-10-10 14:39:25,616]  Message sent successfully.
-exception.py[LINE:124]# ERROR    [2016-10-10 14:39:25,631]  Internal Server Error: /
-Traceback (most recent call last):
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/core/handlers/exception.py", line 39, in inner
-    response = get_response(request)
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
-    response = self.process_exception_by_middleware(e, request)
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
-    return handler(request, *args, **kwargs)
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/views/generic/edit.py", line 183, in post
-    return self.form_valid(form)
-  File "/home/user/Projects/test_task/text_search/search_engine/views.py", line 40, in form_valid
-    return redirect('result', {'mail': data['mail']})
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/shortcuts.py", line 56, in redirect
-    return redirect_class(resolve_url(to, *args, **kwargs))
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/shortcuts.py", line 147, in resolve_url
-    return reverse(to, args=args, kwargs=kwargs)
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
-    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/urls/resolvers.py", line 392, in _reverse_with_prefix
-    (lookup_view_s, args, kwargs, len(patterns), patterns)
-django.urls.exceptions.NoReverseMatch: Reverse for 'result' with arguments '({'mail': 'natasha.kuskova@gmail.com'},)' and keyword arguments '{}' not found. 1 pattern(s) tried: ['result/(?P<mail>\\d+)$']
-forms.py[LINE:30]# INFO     [2016-10-10 14:39:46,533]  Result found in the database.
-views.py[LINE:39]# INFO     [2016-10-10 14:39:48,303]  Message sent successfully.
-exception.py[LINE:124]# ERROR    [2016-10-10 14:39:48,310]  Internal Server Error: /
-Traceback (most recent call last):
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/core/handlers/exception.py", line 39, in inner
-    response = get_response(request)
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
-    response = self.process_exception_by_middleware(e, request)
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
-    return handler(request, *args, **kwargs)
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/views/generic/edit.py", line 183, in post
-    return self.form_valid(form)
-  File "/home/user/Projects/test_task/text_search/search_engine/views.py", line 40, in form_valid
-    return redirect('result', {'mail': data['mail']})
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/shortcuts.py", line 56, in redirect
-    return redirect_class(resolve_url(to, *args, **kwargs))
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/shortcuts.py", line 147, in resolve_url
-    return reverse(to, args=args, kwargs=kwargs)
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
-    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
-  File "/home/user/Projects/test_task/.env/lib/python3.5/site-packages/django/urls/resolvers.py", line 392, in _reverse_with_prefix
-    (lookup_view_s, args, kwargs, len(patterns), patterns)
-django.urls.exceptions.NoReverseMatch: Reverse for 'result' with arguments '({'mail': 'natasha.kuskova@gmail.com'},)' and keyword arguments '{}' not found. 1 pattern(s) tried: ['result/(?P<mail>\\w+)$']
-forms.py[LINE:30]# INFO     [2016-10-10 14:42:55,357]  Result found in the database.
-views.py[LINE:39]# INFO     [2016-10-10 14:42:57,185]  Message sent successfully.
-forms.py[LINE:30]# INFO     [2016-10-10 14:43:27,979]  Result found in the database.
-views.py[LINE:39]# INFO     [2016-10-10 14:43:29,746]  Message sent successfully.
+forms.py[LINE:23]# INFO     [2016-10-11 07:47:31,079]  Result found in the database.
+forms.py[LINE:45]# INFO     [2016-10-11 07:47:32,969]  Message sent successfully.
+forms.py[LINE:23]# INFO     [2016-10-11 07:48:46,373]  Result found in the database.
+forms.py[LINE:46]# INFO     [2016-10-11 07:48:48,094]  Message sent successfully.
+forms.py[LINE:23]# INFO     [2016-10-11 07:49:27,179]  Result found in the database.
+forms.py[LINE:46]# INFO     [2016-10-11 07:49:28,853]  Message sent successfully.
+forms.py[LINE:25]# INFO     [2016-10-11 08:36:31,377]  Result found in the database.
+forms.py[LINE:40]# INFO     [2016-10-11 08:36:33,072]  Message sent successfully.
+forms.py[LINE:25]# INFO     [2016-10-11 08:41:49,462]  Result found in the database.
+forms.py[LINE:40]# INFO     [2016-10-11 08:41:51,323]  Message sent successfully.
+forms.py[LINE:25]# INFO     [2016-10-11 08:45:57,995]  Result found in the database.
+forms.py[LINE:40]# INFO     [2016-10-11 08:45:59,708]  Message sent successfully.
+forms.py[LINE:25]# INFO     [2016-10-11 09:05:47,039]  Result found in the database.
+forms.py[LINE:40]# INFO     [2016-10-11 09:05:49,046]  Message sent successfully.
+forms.py[LINE:25]# INFO     [2016-10-11 09:18:22,590]  Result found in the database.
+forms.py[LINE:41]# INFO     [2016-10-11 09:18:24,443]  Message sent successfully.
