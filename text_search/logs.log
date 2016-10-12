@@ -309,3 +309,540 @@ tasks.py[LINE:45]# INFO     [2016-10-12 08:43:09,613]  Message sent successfully
 views.py[LINE:18]# ERROR    [2016-10-12 08:43:26,314]  en
 tasks.py[LINE:28]# INFO     [2016-10-12 08:43:26,337]  The result found in the database in 0.016551494598388672 seconds.
 tasks.py[LINE:45]# INFO     [2016-10-12 08:43:28,118]  Message sent successfully.
+tasks.py[LINE:28]# INFO     [2016-10-12 09:19:46,180]  The result found in the database in 0.001224517822265625 seconds.
+tasks.py[LINE:45]# INFO     [2016-10-12 09:19:48,242]  Message sent successfully.
+tasks.py[LINE:28]# INFO     [2016-10-12 09:21:26,086]  The result found in the database in 0.007335186004638672 seconds.
+tasks.py[LINE:45]# INFO     [2016-10-12 09:21:27,784]  Message sent successfully.
+tasks.py[LINE:28]# INFO     [2016-10-12 09:21:57,781]  The result found in the database in 0.020589113235473633 seconds.
+tasks.py[LINE:45]# INFO     [2016-10-12 09:21:59,530]  Message sent successfully.
+tasks.py[LINE:28]# INFO     [2016-10-12 09:45:51,915]  The result found in the database in 0.0015959739685058594 seconds.
+tasks.py[LINE:45]# INFO     [2016-10-12 09:45:53,941]  Message sent successfully.
+tasks.py[LINE:28]# INFO     [2016-10-12 09:49:36,679]  The result found in the database in 0.0040323734283447266 seconds.
+tasks.py[LINE:45]# INFO     [2016-10-12 09:49:38,643]  Message sent successfully.
+tasks.py[LINE:28]# INFO     [2016-10-12 09:50:41,960]  The result found in the database in 0.004157304763793945 seconds.
+tasks.py[LINE:45]# INFO     [2016-10-12 09:50:43,781]  Message sent successfully.
+tasks.py[LINE:28]# INFO     [2016-10-12 09:56:50,089]  The result found in the database in 0.003983497619628906 seconds.
+tasks.py[LINE:45]# INFO     [2016-10-12 09:56:52,139]  Message sent successfully.
+tasks.py[LINE:28]# INFO     [2016-10-12 11:12:13,613]  The result found in the database in 0.4354560375213623 seconds.
+tasks.py[LINE:45]# INFO     [2016-10-12 11:12:15,788]  Message sent successfully.
+tasks.py[LINE:28]# INFO     [2016-10-12 11:13:20,499]  The result found in the database in 0.1119847297668457 seconds.
+tasks.py[LINE:45]# INFO     [2016-10-12 11:13:22,270]  Message sent successfully.
+tasks.py[LINE:59]# ERROR    [2016-10-12 11:39:06,188]  SoftTimeLimitExceeded.
+tasks.py[LINE:73]# ERROR    [2016-10-12 11:39:06,189]  Something went wrong. Message not sent.
+tasks.py[LINE:59]# ERROR    [2016-10-12 11:41:28,015]  SoftTimeLimitExceeded.
+tasks.py[LINE:76]# INFO     [2016-10-12 11:41:30,136]  Message sent successfully.
+tasks.py[LINE:59]# ERROR    [2016-10-12 11:45:00,342]  SoftTimeLimitExceeded.
+tasks.py[LINE:76]# INFO     [2016-10-12 11:45:02,278]  Message sent successfully.
+tasks.py[LINE:59]# ERROR    [2016-10-12 11:55:46,529]  SoftTimeLimitExceeded.
+tasks.py[LINE:76]# INFO     [2016-10-12 11:55:48,353]  Message sent successfully.
+tasks.py[LINE:55]# ERROR    [2016-10-12 11:56:07,408]  Something went wrong. Message not sent.
+tasks.py[LINE:55]# ERROR    [2016-10-12 11:56:30,092]  Something went wrong. Message not sent.
+tasks.py[LINE:55]# ERROR    [2016-10-12 11:56:47,453]  Something went wrong. Message not sent.
+tasks.py[LINE:33]# INFO     [2016-10-12 11:57:20,524]  The result found in the database in 0.08400678634643555 seconds.
+tasks.py[LINE:33]# INFO     [2016-10-12 11:57:20,526]  The result found in the database in 0.08592724800109863 seconds.
+tasks.py[LINE:33]# INFO     [2016-10-12 11:57:20,528]  The result found in the database in 0.08756685256958008 seconds.
+tasks.py[LINE:33]# INFO     [2016-10-12 11:57:20,530]  The result found in the database in 0.08951139450073242 seconds.
+tasks.py[LINE:33]# INFO     [2016-10-12 11:57:20,532]  The result found in the database in 0.09113621711730957 seconds.
+tasks.py[LINE:33]# INFO     [2016-10-12 11:57:20,533]  The result found in the database in 0.09261298179626465 seconds.
+tasks.py[LINE:33]# INFO     [2016-10-12 11:57:20,535]  The result found in the database in 0.09405207633972168 seconds.
+tasks.py[LINE:33]# INFO     [2016-10-12 11:57:20,542]  The result found in the database in 0.10173916816711426 seconds.
+tasks.py[LINE:33]# INFO     [2016-10-12 11:57:20,544]  The result found in the database in 0.10350775718688965 seconds.
+tasks.py[LINE:33]# INFO     [2016-10-12 11:57:20,545]  The result found in the database in 0.10499119758605957 seconds.
+tasks.py[LINE:33]# INFO     [2016-10-12 11:57:20,547]  The result found in the database in 0.10649895668029785 seconds.
+tasks.py[LINE:33]# INFO     [2016-10-12 11:57:20,549]  The result found in the database in 0.10816311836242676 seconds.
+tasks.py[LINE:33]# INFO     [2016-10-12 11:57:20,557]  The result found in the database in 0.11608624458312988 seconds.
+tasks.py[LINE:33]# INFO     [2016-10-12 11:57:20,559]  The result found in the database in 0.11832761764526367 seconds.
+tasks.py[LINE:33]# INFO     [2016-10-12 11:57:20,560]  The result found in the database in 0.11996960639953613 seconds.
+tasks.py[LINE:33]# INFO     [2016-10-12 11:57:20,562]  The result found in the database in 0.1216437816619873 seconds.
+tasks.py[LINE:33]# INFO     [2016-10-12 11:57:20,564]  The result found in the database in 0.12358927726745605 seconds.
+tasks.py[LINE:33]# INFO     [2016-10-12 11:57:20,566]  The result found in the database in 0.12548375129699707 seconds.
+tasks.py[LINE:33]# INFO     [2016-10-12 11:57:20,568]  The result found in the database in 0.12720203399658203 seconds.
+tasks.py[LINE:33]# INFO     [2016-10-12 11:57:20,569]  The result found in the database in 0.12884926795959473 seconds.
+tasks.py[LINE:33]# INFO     [2016-10-12 11:57:20,571]  The result found in the database in 0.13056302070617676 seconds.
+tasks.py[LINE:33]# INFO     [2016-10-12 11:57:20,573]  The result found in the database in 0.13232016563415527 seconds.
+tasks.py[LINE:33]# INFO     [2016-10-12 11:57:20,575]  The result found in the database in 0.1341860294342041 seconds.
+tasks.py[LINE:33]# INFO     [2016-10-12 11:57:20,576]  The result found in the database in 0.13592267036437988 seconds.
+tasks.py[LINE:59]# ERROR    [2016-10-12 11:57:20,577]  SoftTimeLimitExceeded.
+tasks.py[LINE:76]# INFO     [2016-10-12 11:57:22,475]  Message sent successfully.
+tasks.py[LINE:33]# INFO     [2016-10-12 12:08:35,464]  The result found in the database in 0.003732442855834961 seconds.
+tasks.py[LINE:33]# INFO     [2016-10-12 12:08:35,465]  The result found in the database in 0.004889011383056641 seconds.
+tasks.py[LINE:59]# ERROR    [2016-10-12 12:08:35,650]  SoftTimeLimitExceeded.
+tasks.py[LINE:76]# INFO     [2016-10-12 12:08:37,990]  Message sent successfully.
+tasks.py[LINE:34]# INFO     [2016-10-12 12:09:25,072]  The result found in the database in 0.08510851860046387 seconds.
+tasks.py[LINE:34]# INFO     [2016-10-12 12:09:25,077]  The result found in the database in 0.09007453918457031 seconds.
+tasks.py[LINE:34]# INFO     [2016-10-12 12:09:25,080]  The result found in the database in 0.09333372116088867 seconds.
+tasks.py[LINE:57]# ERROR    [2016-10-12 12:09:25,126]  Something went wrong. Message not sent.
+tasks.py[LINE:34]# INFO     [2016-10-12 12:11:05,751]  The result found in the database in 0.003861665725708008 seconds.
+tasks.py[LINE:34]# INFO     [2016-10-12 12:11:05,753]  The result found in the database in 0.005889892578125 seconds.
+tasks.py[LINE:34]# INFO     [2016-10-12 12:11:05,754]  The result found in the database in 0.0068569183349609375 seconds.
+tasks.py[LINE:44]# INFO     [2016-10-12 12:11:05,843]  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Результаты поиска.</title>
+</head>
+<body>
+    <h1>Результаты по запросу: "Гарри"</h1>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Мальчик, который выжил"<br> Страница: 2.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Мальчик, который выжил"<br> Страница: 3.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Исчезнувшее стекло"<br> Страница: 4.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и узник Азкабана"</strong><br>Часть: "Узник Азкабана"<br> Раздел: "1"<br> Глава: "Совиная почта"<br> Страница: 1.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и узник Азкабана"</strong><br>Часть: "Узник Азкабана"<br> Раздел: "1"<br> Глава: "Большая ошибка тетушки Мардж"<br> Страница: 2.</li>
+        </ul>
+    
+</body>
+</html>
+tasks.py[LINE:58]# ERROR    [2016-10-12 12:11:05,881]  Something went wrong. Message not sent.
+tasks.py[LINE:34]# INFO     [2016-10-12 12:12:21,876]  The result found in the database in 0.08404350280761719 seconds.
+tasks.py[LINE:34]# INFO     [2016-10-12 12:12:21,879]  The result found in the database in 0.08749008178710938 seconds.
+tasks.py[LINE:34]# INFO     [2016-10-12 12:12:21,882]  The result found in the database in 0.09037613868713379 seconds.
+tasks.py[LINE:62]# ERROR    [2016-10-12 12:12:21,926]  SoftTimeLimitExceeded.
+tasks.py[LINE:79]# INFO     [2016-10-12 12:12:23,712]  Message sent successfully.
+tasks.py[LINE:62]# ERROR    [2016-10-12 12:12:39,532]  SoftTimeLimitExceeded.
+tasks.py[LINE:79]# INFO     [2016-10-12 12:12:41,243]  Message sent successfully.
+tasks.py[LINE:34]# INFO     [2016-10-12 12:18:48,227]  The result found in the database in 0.0070438385009765625 seconds.
+tasks.py[LINE:34]# INFO     [2016-10-12 12:18:48,228]  The result found in the database in 0.008112907409667969 seconds.
+tasks.py[LINE:34]# INFO     [2016-10-12 12:18:48,229]  The result found in the database in 0.008897781372070312 seconds.
+tasks.py[LINE:44]# INFO     [2016-10-12 12:18:48,239]  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Результаты поиска.</title>
+</head>
+<body>
+    <h1>Результаты по запросу: "Гарри"</h1>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Мальчик, который выжил"<br> Страница: 2.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Мальчик, который выжил"<br> Страница: 3.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Исчезнувшее стекло"<br> Страница: 4.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и узник Азкабана"</strong><br>Часть: "Узник Азкабана"<br> Раздел: "1"<br> Глава: "Совиная почта"<br> Страница: 1.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и узник Азкабана"</strong><br>Часть: "Узник Азкабана"<br> Раздел: "1"<br> Глава: "Большая ошибка тетушки Мардж"<br> Страница: 2.</li>
+        </ul>
+    
+</body>
+</html>
+tasks.py[LINE:62]# ERROR    [2016-10-12 12:18:49,154]  SoftTimeLimitExceeded.
+tasks.py[LINE:79]# INFO     [2016-10-12 12:18:50,844]  Message sent successfully.
+tasks.py[LINE:34]# INFO     [2016-10-12 12:37:04,999]  The result found in the database in 0.004786252975463867 seconds.
+tasks.py[LINE:34]# INFO     [2016-10-12 12:37:05,329]  The result found in the database in 0.3354339599609375 seconds.
+tasks.py[LINE:34]# INFO     [2016-10-12 12:37:05,330]  The result found in the database in 0.33660316467285156 seconds.
+tasks.py[LINE:44]# INFO     [2016-10-12 12:37:05,344]  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Результаты поиска.</title>
+</head>
+<body>
+    <h1>Результаты по запросу: "Гарри"</h1>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Мальчик, который выжил"<br> Страница: 2.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Мальчик, который выжил"<br> Страница: 3.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Исчезнувшее стекло"<br> Страница: 4.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и узник Азкабана"</strong><br>Часть: "Узник Азкабана"<br> Раздел: "1"<br> Глава: "Совиная почта"<br> Страница: 1.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и узник Азкабана"</strong><br>Часть: "Узник Азкабана"<br> Раздел: "1"<br> Глава: "Большая ошибка тетушки Мардж"<br> Страница: 2.</li>
+        </ul>
+    
+</body>
+</html>
+tasks.py[LINE:62]# ERROR    [2016-10-12 12:37:05,995]  SoftTimeLimitExceeded.
+tasks.py[LINE:79]# INFO     [2016-10-12 12:37:07,831]  Message sent successfully.
+tasks.py[LINE:34]# INFO     [2016-10-12 12:41:16,259]  The result found in the database in 0.05817127227783203 seconds.
+tasks.py[LINE:34]# INFO     [2016-10-12 12:41:16,260]  The result found in the database in 0.059481143951416016 seconds.
+tasks.py[LINE:34]# INFO     [2016-10-12 12:41:16,261]  The result found in the database in 0.06052565574645996 seconds.
+tasks.py[LINE:44]# INFO     [2016-10-12 12:41:16,286]  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Результаты поиска.</title>
+</head>
+<body>
+    <h1>Результаты по запросу: "Гарри"</h1>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Мальчик, который выжил"<br> Страница: 2.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Мальчик, который выжил"<br> Страница: 3.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Исчезнувшее стекло"<br> Страница: 4.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и узник Азкабана"</strong><br>Часть: "Узник Азкабана"<br> Раздел: "1"<br> Глава: "Совиная почта"<br> Страница: 1.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и узник Азкабана"</strong><br>Часть: "Узник Азкабана"<br> Раздел: "1"<br> Глава: "Большая ошибка тетушки Мардж"<br> Страница: 2.</li>
+        </ul>
+    
+</body>
+</html>
+tasks.py[LINE:54]# INFO     [2016-10-12 12:41:17,936]  Message sent successfully.
+tasks.py[LINE:34]# INFO     [2016-10-12 12:45:25,180]  The result found in the database in 0.23631715774536133 seconds.
+tasks.py[LINE:34]# INFO     [2016-10-12 12:45:25,187]  The result found in the database in 0.2430286407470703 seconds.
+tasks.py[LINE:34]# INFO     [2016-10-12 12:45:25,189]  The result found in the database in 0.24516797065734863 seconds.
+tasks.py[LINE:44]# INFO     [2016-10-12 12:45:25,221]  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Результаты поиска.</title>
+</head>
+<body>
+    <h1>Результаты по запросу: "Гарри"</h1>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Мальчик, который выжил"<br> Страница: 2.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Мальчик, который выжил"<br> Страница: 3.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Исчезнувшее стекло"<br> Страница: 4.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и узник Азкабана"</strong><br>Часть: "Узник Азкабана"<br> Раздел: "1"<br> Глава: "Совиная почта"<br> Страница: 1.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и узник Азкабана"</strong><br>Часть: "Узник Азкабана"<br> Раздел: "1"<br> Глава: "Большая ошибка тетушки Мардж"<br> Страница: 2.</li>
+        </ul>
+    
+</body>
+</html>
+tasks.py[LINE:62]# ERROR    [2016-10-12 12:45:25,446]  SoftTimeLimitExceeded.
+tasks.py[LINE:34]# INFO     [2016-10-12 12:53:15,548]  The result found in the database in 0.0033528804779052734 seconds.
+tasks.py[LINE:34]# INFO     [2016-10-12 12:53:15,549]  The result found in the database in 0.004570722579956055 seconds.
+tasks.py[LINE:34]# INFO     [2016-10-12 12:53:15,630]  The result found in the database in 0.0854489803314209 seconds.
+tasks.py[LINE:44]# INFO     [2016-10-12 12:53:15,674]  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Результаты поиска.</title>
+</head>
+<body>
+    <h1>Результаты по запросу: "Гарри"</h1>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Мальчик, который выжил"<br> Страница: 2.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Мальчик, который выжил"<br> Страница: 3.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Исчезнувшее стекло"<br> Страница: 4.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и узник Азкабана"</strong><br>Часть: "Узник Азкабана"<br> Раздел: "1"<br> Глава: "Совиная почта"<br> Страница: 1.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и узник Азкабана"</strong><br>Часть: "Узник Азкабана"<br> Раздел: "1"<br> Глава: "Большая ошибка тетушки Мардж"<br> Страница: 2.</li>
+        </ul>
+    
+</body>
+</html>
+tasks.py[LINE:62]# ERROR    [2016-10-12 12:53:16,046]  SoftTimeLimitExceeded.
+tasks.py[LINE:36]# INFO     [2016-10-12 12:53:33,294]  The result found in the database in 0.02377033233642578 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 12:53:33,298]  The result found in the database in 0.02739572525024414 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 12:53:33,433]  The result found in the database in 0.16286635398864746 seconds.
+tasks.py[LINE:47]# INFO     [2016-10-12 12:53:33,478]  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Результаты поиска.</title>
+</head>
+<body>
+    <h1>Результаты по запросу: "Гарри"</h1>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Мальчик, который выжил"<br> Страница: 2.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Мальчик, который выжил"<br> Страница: 3.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Исчезнувшее стекло"<br> Страница: 4.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и узник Азкабана"</strong><br>Часть: "Узник Азкабана"<br> Раздел: "1"<br> Глава: "Совиная почта"<br> Страница: 1.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и узник Азкабана"</strong><br>Часть: "Узник Азкабана"<br> Раздел: "1"<br> Глава: "Большая ошибка тетушки Мардж"<br> Страница: 2.</li>
+        </ul>
+    
+</body>
+</html>
+tasks.py[LINE:66]# ERROR    [2016-10-12 12:53:33,783]  SoftTimeLimitExceeded.
+tasks.py[LINE:75]# INFO     [2016-10-12 12:53:33,792]  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Результаты поиска.</title>
+</head>
+<body>
+    <h1>Результаты по запросу: "Гарри"</h1>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Мальчик, который выжил"<br> Страница: 2.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Мальчик, который выжил"<br> Страница: 3.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Исчезнувшее стекло"<br> Страница: 4.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и узник Азкабана"</strong><br>Часть: "Узник Азкабана"<br> Раздел: "1"<br> Глава: "Совиная почта"<br> Страница: 1.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и узник Азкабана"</strong><br>Часть: "Узник Азкабана"<br> Раздел: "1"<br> Глава: "Большая ошибка тетушки Мардж"<br> Страница: 2.</li>
+        </ul>
+    
+</body>
+</html>
+tasks.py[LINE:85]# INFO     [2016-10-12 12:53:35,702]  Message sent successfully.
+tasks.py[LINE:36]# INFO     [2016-10-12 12:55:58,128]  The result found in the database in 0.003990650177001953 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 12:55:58,129]  The result found in the database in 0.005131721496582031 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 12:55:58,130]  The result found in the database in 0.0059511661529541016 seconds.
+tasks.py[LINE:66]# ERROR    [2016-10-12 12:55:58,201]  SoftTimeLimitExceeded.
+tasks.py[LINE:75]# INFO     [2016-10-12 12:55:58,210]  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Результаты поиска.</title>
+</head>
+<body>
+    <h1>Результаты по запросу: "Гарри"</h1>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Мальчик, который выжил"<br> Страница: 2.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Мальчик, который выжил"<br> Страница: 3.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Исчезнувшее стекло"<br> Страница: 4.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и узник Азкабана"</strong><br>Часть: "Узник Азкабана"<br> Раздел: "1"<br> Глава: "Совиная почта"<br> Страница: 1.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и узник Азкабана"</strong><br>Часть: "Узник Азкабана"<br> Раздел: "1"<br> Глава: "Большая ошибка тетушки Мардж"<br> Страница: 2.</li>
+        </ul>
+    
+</body>
+</html>
+tasks.py[LINE:85]# INFO     [2016-10-12 12:55:59,940]  Message sent successfully.
+tasks.py[LINE:66]# ERROR    [2016-10-12 12:57:51,973]  SoftTimeLimitExceeded.
+tasks.py[LINE:66]# ERROR    [2016-10-12 13:00:21,485]  SoftTimeLimitExceeded.
+tasks.py[LINE:68]# INFO     [2016-10-12 13:00:21,486]  []
+tasks.py[LINE:66]# ERROR    [2016-10-12 13:02:51,156]  SoftTimeLimitExceeded.
+tasks.py[LINE:68]# INFO     [2016-10-12 13:02:51,157]  []
+tasks.py[LINE:66]# ERROR    [2016-10-12 13:03:21,784]  SoftTimeLimitExceeded.
+tasks.py[LINE:68]# INFO     [2016-10-12 13:03:21,787]  []
+tasks.py[LINE:36]# INFO     [2016-10-12 13:03:56,203]  The result found in the database in 0.0864560604095459 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:03:56,207]  The result found in the database in 0.08981752395629883 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:03:56,212]  The result found in the database in 0.09530401229858398 seconds.
+tasks.py[LINE:66]# ERROR    [2016-10-12 13:03:56,923]  SoftTimeLimitExceeded.
+tasks.py[LINE:68]# INFO     [2016-10-12 13:03:56,924]  [<Page: 2>, <Page: 3>, <Page: 4>, <Page: 1>, <Page: 2>]
+tasks.py[LINE:86]# INFO     [2016-10-12 13:03:58,763]  Message sent successfully.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:05:28,026]  The result found in the database in 0.13523125648498535 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:05:28,029]  The result found in the database in 0.1387312412261963 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:05:28,034]  The result found in the database in 0.14327502250671387 seconds.
+tasks.py[LINE:66]# ERROR    [2016-10-12 13:05:28,595]  SoftTimeLimitExceeded.
+tasks.py[LINE:68]# INFO     [2016-10-12 13:05:28,596]  [<Page: 2>, <Page: 3>, <Page: 4>, <Page: 1>, <Page: 2>]
+tasks.py[LINE:86]# INFO     [2016-10-12 13:05:30,408]  Message sent successfully.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:05:57,820]  The result found in the database in 0.0036995410919189453 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:05:57,821]  The result found in the database in 0.004868745803833008 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:05:57,902]  The result found in the database in 0.0858309268951416 seconds.
+tasks.py[LINE:66]# ERROR    [2016-10-12 13:05:58,418]  SoftTimeLimitExceeded.
+tasks.py[LINE:68]# INFO     [2016-10-12 13:05:58,419]  [<Page: 2>, <Page: 3>, <Page: 4>, <Page: 1>, <Page: 2>]
+tasks.py[LINE:86]# INFO     [2016-10-12 13:06:00,098]  Message sent successfully.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:06:30,709]  The result found in the database in 0.08692812919616699 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:06:30,716]  The result found in the database in 0.09389305114746094 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:06:30,725]  The result found in the database in 0.10268664360046387 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:06:30,735]  The result found in the database in 0.11255621910095215 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:06:30,738]  The result found in the database in 0.1150660514831543 seconds.
+tasks.py[LINE:66]# ERROR    [2016-10-12 13:06:31,127]  SoftTimeLimitExceeded.
+tasks.py[LINE:68]# INFO     [2016-10-12 13:06:31,127]  [<Page: 2>, <Page: 3>, <Page: 4>, <Page: 1>, <Page: 2>]
+tasks.py[LINE:86]# INFO     [2016-10-12 13:06:32,822]  Message sent successfully.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:06:56,760]  The result found in the database in 0.08497357368469238 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:06:56,768]  The result found in the database in 0.09274864196777344 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:06:56,770]  The result found in the database in 0.09559845924377441 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:06:56,776]  The result found in the database in 0.10135984420776367 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:06:56,779]  The result found in the database in 0.10454106330871582 seconds.
+tasks.py[LINE:66]# ERROR    [2016-10-12 13:06:57,080]  SoftTimeLimitExceeded.
+tasks.py[LINE:68]# INFO     [2016-10-12 13:06:57,081]  [<Page: 2>, <Page: 3>, <Page: 4>, <Page: 1>, <Page: 2>]
+tasks.py[LINE:86]# INFO     [2016-10-12 13:06:58,805]  Message sent successfully.
+tasks.py[LINE:66]# ERROR    [2016-10-12 13:07:55,504]  SoftTimeLimitExceeded.
+tasks.py[LINE:68]# INFO     [2016-10-12 13:07:55,505]  []
+tasks.py[LINE:36]# INFO     [2016-10-12 13:08:41,351]  The result found in the database in 0.02183699607849121 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:08:41,356]  The result found in the database in 0.02718353271484375 seconds.
+tasks.py[LINE:66]# ERROR    [2016-10-12 13:08:41,482]  SoftTimeLimitExceeded.
+tasks.py[LINE:68]# INFO     [2016-10-12 13:08:41,483]  [<Page: 1>, <Page: 2>]
+tasks.py[LINE:86]# INFO     [2016-10-12 13:08:43,164]  Message sent successfully.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:09:19,443]  The result found in the database in 0.060376644134521484 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:09:19,449]  The result found in the database in 0.06691122055053711 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:09:19,452]  The result found in the database in 0.06984806060791016 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:09:19,458]  The result found in the database in 0.07569360733032227 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:09:19,462]  The result found in the database in 0.07921290397644043 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:09:19,467]  The result found in the database in 0.0845026969909668 seconds.
+tasks.py[LINE:66]# ERROR    [2016-10-12 13:09:20,476]  SoftTimeLimitExceeded.
+tasks.py[LINE:68]# INFO     [2016-10-12 13:09:20,477]  [<Page: 1>, <Page: 2>, <Page: 3>, <Page: 4>, <Page: 1>, <Page: 2>]
+tasks.py[LINE:86]# INFO     [2016-10-12 13:09:22,149]  Message sent successfully.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:10:00,797]  The result found in the database in 0.08531761169433594 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:10:00,800]  The result found in the database in 0.08888745307922363 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:10:00,805]  The result found in the database in 0.09405970573425293 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:10:00,808]  The result found in the database in 0.09697890281677246 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:10:00,811]  The result found in the database in 0.09980964660644531 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:10:00,814]  The result found in the database in 0.10283708572387695 seconds.
+tasks.py[LINE:57]# INFO     [2016-10-12 13:10:02,747]  Message sent successfully.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:12:57,061]  The result found in the database in 0.004355669021606445 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:12:57,144]  The result found in the database in 0.08702874183654785 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:12:57,147]  The result found in the database in 0.0897972583770752 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:12:57,149]  The result found in the database in 0.09203529357910156 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:12:57,153]  The result found in the database in 0.09648370742797852 seconds.
+tasks.py[LINE:57]# INFO     [2016-10-12 13:12:59,021]  Message sent successfully.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:13:18,194]  The result found in the database in 0.1196432113647461 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:13:18,198]  The result found in the database in 0.12311935424804688 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:13:18,202]  The result found in the database in 0.12692523002624512 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:13:18,206]  The result found in the database in 0.13109278678894043 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:13:18,210]  The result found in the database in 0.13509845733642578 seconds.
+tasks.py[LINE:57]# INFO     [2016-10-12 13:13:20,032]  Message sent successfully.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:13:55,389]  The result found in the database in 0.18550968170166016 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:13:55,393]  The result found in the database in 0.18895864486694336 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:13:55,396]  The result found in the database in 0.19222259521484375 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:13:55,399]  The result found in the database in 0.1953263282775879 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:13:55,402]  The result found in the database in 0.19816136360168457 seconds.
+tasks.py[LINE:66]# ERROR    [2016-10-12 13:13:56,300]  SoftTimeLimitExceeded.
+tasks.py[LINE:68]# INFO     [2016-10-12 13:13:56,301]  [<Page: 2>, <Page: 3>, <Page: 4>, <Page: 1>, <Page: 2>]
+tasks.py[LINE:86]# INFO     [2016-10-12 13:13:58,241]  Message sent successfully.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:33:25,092]  The result found in the database in 0.003693819046020508 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:33:25,093]  The result found in the database in 0.0048563480377197266 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:33:25,174]  The result found in the database in 0.0854501724243164 seconds.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:33:27,034]  Message sent successfully.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:48:41,120]  The result found in the database in 0.007150411605834961 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:48:41,121]  The result found in the database in 0.008218526840209961 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:48:41,121]  The result found in the database in 0.008975505828857422 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:49:30,140]  The result found in the database in 0.020337343215942383 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:49:30,146]  The result found in the database in 0.02592754364013672 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:49:30,147]  The result found in the database in 0.02732706069946289 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:52:42,565]  The result found in the database in 0.029829740524291992 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:52:42,566]  The result found in the database in 0.019562721252441406 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:52:42,567]  The result found in the database in 0.03203701972961426 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:52:42,568]  The result found in the database in 0.032880544662475586 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:52:42,574]  The result found in the database in 0.027085542678833008 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:52:42,576]  The result found in the database in 0.02952289581298828 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:54:00,412]  The result found in the database in 0.006956577301025391 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:54:00,416]  The result found in the database in 0.011255502700805664 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:54:00,418]  The result found in the database in 0.013010263442993164 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:54:00,420]  The result found in the database in 0.006451845169067383 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:54:00,421]  The result found in the database in 0.007514476776123047 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:54:00,422]  The result found in the database in 0.00839853286743164 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:54:47,314]  The result found in the database in 0.006834983825683594 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:54:47,320]  The result found in the database in 0.012140989303588867 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:54:47,321]  The result found in the database in 0.013600587844848633 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:54:47,322]  The result found in the database in 0.006283283233642578 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:54:47,323]  The result found in the database in 0.007343292236328125 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:54:47,323]  The result found in the database in 0.008167743682861328 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:57:24,980]  The result found in the database in 0.027708053588867188 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:57:24,987]  The result found in the database in 0.035065650939941406 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:57:24,989]  The result found in the database in 0.036511898040771484 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:57:24,990]  The result found in the database in 0.03069591522216797 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:57:24,991]  The result found in the database in 0.0321657657623291 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:57:24,993]  The result found in the database in 0.033359527587890625 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:58:15,065]  The result found in the database in 0.006108522415161133 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:58:15,149]  The result found in the database in 0.08978605270385742 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 13:58:15,150]  The result found in the database in 0.09102606773376465 seconds.
+tasks.py[LINE:66]# ERROR    [2016-10-12 13:58:15,561]  SoftTimeLimitExceeded.
+tasks.py[LINE:36]# INFO     [2016-10-12 13:58:17,506]  Message sent successfully.
+tasks.py[LINE:59]# INFO     [2016-10-12 14:04:26,848]  The result found in the database in 0.18443560600280762 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 14:04:26,851]  The result found in the database in 0.18793320655822754 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 14:04:26,857]  The result found in the database in 0.1935594081878662 seconds.
+tasks.py[LINE:66]# ERROR    [2016-10-12 14:04:28,168]  SoftTimeLimitExceeded.
+tasks.py[LINE:36]# INFO     [2016-10-12 14:04:29,958]  Message sent successfully.
+tasks.py[LINE:59]# INFO     [2016-10-12 14:05:09,162]  The result found in the database in 0.0023386478424072266 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 14:05:09,164]  The result found in the database in 0.003948211669921875 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 14:05:09,345]  The result found in the database in 0.18540716171264648 seconds.
+tasks.py[LINE:66]# ERROR    [2016-10-12 14:05:10,662]  SoftTimeLimitExceeded.
+tasks.py[LINE:36]# INFO     [2016-10-12 14:05:12,276]  Message sent successfully.
+tasks.py[LINE:59]# INFO     [2016-10-12 14:05:42,591]  The result found in the database in 0.008090972900390625 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 14:05:42,594]  The result found in the database in 0.01113128662109375 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 14:05:42,780]  The result found in the database in 0.19739532470703125 seconds.
+tasks.py[LINE:66]# ERROR    [2016-10-12 14:05:44,099]  SoftTimeLimitExceeded.
+tasks.py[LINE:36]# INFO     [2016-10-12 14:05:45,759]  Message sent successfully.
+tasks.py[LINE:59]# INFO     [2016-10-12 14:07:03,269]  The result found in the database in 0.00272369384765625 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 14:07:03,271]  The result found in the database in 0.004605293273925781 seconds.
+tasks.py[LINE:59]# INFO     [2016-10-12 14:07:03,272]  The result found in the database in 0.006048440933227539 seconds.
+tasks.py[LINE:66]# ERROR    [2016-10-12 14:07:04,268]  SoftTimeLimitExceeded.
+tasks.py[LINE:36]# INFO     [2016-10-12 14:07:05,972]  Message sent successfully.

@@ -15,6 +15,13 @@ form #id_mail{
     padding: 5px 10px;
     margin-top: 10px;
 }
+form #id_time{
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+form #search{
+    margin-top: 15px;
+}
 .lang{
     color: #000;
     text-decoration: none;

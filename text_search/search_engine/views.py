@@ -17,15 +17,11 @@ class SearchView(FormView):
     def form_valid(self, form):
         data = form.save(self.request.LANGUAGE_CODE)
         if data:
-            # return redirect('result', {'mail': data['mail']})
-            return render(self.request, 'result.html',
-                          {'mail': data['mail']})
+            self.request.session['mail'] = data['mail']
+            return redirect('result')
         return False
 
-# class ResultView(TemplateView):
-#
-#     def get(self, request, *args, **kwargs):
-#
-#         return render(request, 'result.html',
-#                       {'mail': request['mail']})
+
+class ResultView(TemplateView):
+    template_name = 'result.html'
 

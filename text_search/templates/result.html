@@ -4,6 +4,8 @@
 {% block title %}Поиск{% endblock %}
 {% block content %}
     <div class="content">
-        <p>{% trans "Поиск запущен, по окончанию результат будет отправлен на Ваш e-mail" %}: {{mail}}</p>
+        <p>{% trans "Поиск запущен, по окончанию результат будет отправлен на Ваш e-mail" %}:
+            {% if request.session.mail %}{{request.session.mail}}{% endif %}
+        </p>
     </div>
 {% endblock %}

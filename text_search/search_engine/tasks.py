@@ -3,6 +3,7 @@ from celery import shared_task
 from celery import Celery
 import logging
 from django.core.mail import send_mail
+from smtplib import SMTPException
 from django.template.response import SimpleTemplateResponse
 from celery.exceptions import SoftTimeLimitExceeded
 from time import time
@@ -12,20 +13,10 @@ from search_engine.models import *
 logger = logging.getLogger('custom')
 logger.setLevel(logging.DEBUG)
 
-# celery = Celery('tasks', broker='amqp://guest@localhost//')
 
-
-@shared_task
-def send_message(text, mail, lang):
-    page = []
+def send(text, mail, page, lang):
     subject = _('Результаты поиска.')
-    start_time = time()
     from_email = 'natasha.kuskova@gmail.com'
-    # try:
-    page.extend(Page.objects.get_page(text))
-    end_time = time()
-    all_time = end_time - start_time
-    logger.info('The result found in the database in {} seconds.'.format(all_time))
     activate(lang)
     message = SimpleTemplateResponse('message.html',
                                      {'text': text,
@@ -43,29 +34,39 @@ def send_message(text, mail, lang):
             html_message=message.content.decode('utf-8')
         )
         logger.info('Message sent successfully.')
-        page.clear()
         return True
-    except:
-        logger.error('Something went wrong. Message not sent.')
+    except SMTPException:
+        logger.error('SMTPException. Message not sent.')
         return False
 
-    # except SoftTimeLimitExceeded:
-    #     logger.error('SoftTimeLimitExceeded.')
-    #     try:
-    #         send_mail(
-    #             subject,
-    #             message.content.decode('utf-8'),
-    #             from_email,
-    #             [mail],
-    #             fail_silently=False,
-    #             html_message=message.content.decode('utf-8')
-    #         )
-    #         logger.info('Message sent successfully.')
-    #         page.clear()
-    #         return True
-    #     except:
-    #         logger.error('Something went wrong. Message not sent.')
-    #         return False
+
+
+@shared_task
+def search(text, mail, lang):
+    page = []
+    start_time = time()
+    end_time = None
+    try:
+        rows = 0
+        while True:
+            result = Page.objects.get_page(text, rows)
+            if not result:
+                break
+            page.extend(result)
+            global end_time
+            end_time = time()
+            all_time = end_time - start_time
+            logger.info('The result found in the database in {} seconds.'.format(all_time))
+            rows += 2
+        if page:
+            return send(text, mail, page, lang)
+        return False
+
+    except SoftTimeLimitExceeded:
+        logger.error('SoftTimeLimitExceeded.')
+        if page:
+            return send(text, mail, page, lang)
+        return False
 
 
 
