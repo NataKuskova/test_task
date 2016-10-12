@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+{% load i18n %}
 <head>
     <meta charset="UTF-8">
-    <title>Результаты поиска</title>
+    <title>{% trans "Результаты поиска" %}</title>
 </head>
 <body>
-    <h1>Результаты по запросу: "{{text}}".</h1>
+    <h1>{% trans "Результаты по запросу" %}: "{{text}}"</h1>
     {% for result in page %}
         <ul>
-            <li>Книга: <strong>"{{result.book}}"</strong><br>Часть: "{{result.part_name}}"<br> Раздел: "{{result.section_name}}"<br> Глава: "{{result.chapter_name}}"<br> Страница: {{result.number}}.</li>
+            <li>{% trans "Книга" %}: <strong>"{{result.book}}"</strong><br>{% trans "Часть" %}: "{{result.part_name}}"<br> {% trans "Раздел" %}: "{{result.section_name}}"<br> {% trans "Глава" %}: "{{result.chapter_name}}"<br> {% trans "Страница" %}: {{result.number}}.</li>
         </ul>
     {% endfor %}
 </body>

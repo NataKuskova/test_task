@@ -15,8 +15,7 @@ class SearchView(FormView):
     form_class = SearchForm
 
     def form_valid(self, form):
-
-        data = form.save()
+        data = form.save(self.request.LANGUAGE_CODE)
         if data:
             # return redirect('result', {'mail': data['mail']})
             return render(self.request, 'result.html',

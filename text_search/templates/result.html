@@ -1,8 +1,9 @@
 {% extends "base.html" %}
 {% load staticfiles %}
+{% load i18n %}
 {% block title %}Поиск{% endblock %}
 {% block content %}
     <div class="content">
-        <p>Поиск запущен, по окончанию результат будет отправлен на Ваш e-mail: {{mail}}</p>
+        <p>{% trans "Поиск запущен, по окончанию результат будет отправлен на Ваш e-mail" %}: {{mail}}</p>
     </div>
 {% endblock %}

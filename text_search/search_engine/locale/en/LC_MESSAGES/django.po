@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-12 06:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: search_engine/forms.py:13
+msgid "Что мы будем искать в книгах?"
+msgstr "What we will search in books?"
+
+#: search_engine/forms.py:15
+msgid "Ваш e-mail для получения результатов поиска"
+msgstr "Your e-mail for search results"
+
+#: templates/index.html:7
+msgid "Добро пожаловать в поискову систему книг!"
+msgstr "Welcome to the search system of books!"
+
+#: templates/index.html:14
+msgid "Поиск"
+msgstr "Search"
+
+#: templates/message.html:6
+msgid "Результаты поиска"
+msgstr "Search results"
+
+#: templates/message.html:9
+msgid "Результаты по запросу"
+msgstr "Results for"
+
+#: templates/message.html:12
+msgid "Книга"
+msgstr "Book"
+
+#: templates/message.html:12
+msgid "Часть"
+msgstr "Part"
+
+#: templates/message.html:12
+msgid "Раздел"
+msgstr "Section"
+
+#: templates/message.html:12
+msgid "Глава"
+msgstr "Chapter"
+
+#: templates/message.html:12
+msgid "Страница"
+msgstr "Page"
+
+#: templates/result.html:7
+msgid "Поиск запущен, по окончанию результат будет отправлен на Ваш e-mail"
+msgstr "Search started, at the end the result will be sent to your e-mail"
+
+#: text_search/settings.py:178
+msgid "Russian"
+msgstr "Russian"
+
+#: text_search/settings.py:179
+msgid "English"
+msgstr "English"

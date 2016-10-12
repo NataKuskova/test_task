@@ -56,3 +56,256 @@ tasks.py[LINE:31]# ERROR    [2016-10-11 13:49:16,265]  SoftTimeLimitExceeded.
 tasks.py[LINE:32]# INFO     [2016-10-11 13:49:16,266]  Page2222222222............... Гарри Поттер и философский камень.
 tasks.py[LINE:48]# INFO     [2016-10-11 13:49:18,361]  Message sent successfully.
 tasks.py[LINE:30]# INFO     [2016-10-11 14:05:15,550]  The result found in the database in 0.0044612884521484375 seconds.
+tasks.py[LINE:33]# INFO     [2016-10-12 07:06:38,505]  The result found in the database in 0.0034241676330566406 seconds.
+tasks.py[LINE:44]# INFO     [2016-10-12 07:06:41,204]  Message sent successfully.
+tasks.py[LINE:33]# INFO     [2016-10-12 07:11:13,744]  The result found in the database in 0.005856037139892578 seconds.
+tasks.py[LINE:44]# INFO     [2016-10-12 07:11:15,534]  Message sent successfully.
+tasks.py[LINE:33]# INFO     [2016-10-12 07:19:14,582]  The result found in the database in 0.0043032169342041016 seconds.
+tasks.py[LINE:34]# DEBUG    [2016-10-12 07:19:14,583]  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Результаты поиска</title>
+</head>
+<body>
+    <h1>Результаты по запросу: "Поттер"</h1>
+    
+</body>
+</html>
+tasks.py[LINE:44]# INFO     [2016-10-12 07:19:16,601]  Message sent successfully.
+tasks.py[LINE:33]# INFO     [2016-10-12 07:25:34,926]  The result found in the database in 0.00979471206665039 seconds.
+tasks.py[LINE:34]# DEBUG    [2016-10-12 07:25:34,927]  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Результаты поиска</title>
+</head>
+<body>
+    <h1>Результаты по запросу: "Поттер"</h1>
+    
+</body>
+</html>
+tasks.py[LINE:44]# INFO     [2016-10-12 07:25:36,983]  Message sent successfully.
+tasks.py[LINE:27]# INFO     [2016-10-12 07:25:49,674]  The result found in the database in 0.00961613655090332 seconds.
+tasks.py[LINE:34]# DEBUG    [2016-10-12 07:25:49,690]  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Результаты поиска</title>
+</head>
+<body>
+    <h1>Результаты по запросу: "Поттер"</h1>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Мальчик, который выжил"<br> Страница: 1.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Мальчик, который выжил"<br> Страница: 2.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Мальчик, который выжил"<br> Страница: 3.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Исчезнувшее стекло"<br> Страница: 4.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и узник Азкабана"</strong><br>Часть: "Узник Азкабана"<br> Раздел: "1"<br> Глава: "Совиная почта"<br> Страница: 1.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и узник Азкабана"</strong><br>Часть: "Узник Азкабана"<br> Раздел: "1"<br> Глава: "Большая ошибка тетушки Мардж"<br> Страница: 2.</li>
+        </ul>
+    
+</body>
+</html>
+tasks.py[LINE:44]# INFO     [2016-10-12 07:25:51,485]  Message sent successfully.
+tasks.py[LINE:27]# INFO     [2016-10-12 07:26:29,010]  The result found in the database in 0.008763551712036133 seconds.
+tasks.py[LINE:34]# DEBUG    [2016-10-12 07:26:29,038]  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Результаты поиска</title>
+</head>
+<body>
+    <h1>Результаты по запросу: "Гарри"</h1>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Мальчик, который выжил"<br> Страница: 2.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Мальчик, который выжил"<br> Страница: 3.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Исчезнувшее стекло"<br> Страница: 4.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и узник Азкабана"</strong><br>Часть: "Узник Азкабана"<br> Раздел: "1"<br> Глава: "Совиная почта"<br> Страница: 1.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и узник Азкабана"</strong><br>Часть: "Узник Азкабана"<br> Раздел: "1"<br> Глава: "Большая ошибка тетушки Мардж"<br> Страница: 2.</li>
+        </ul>
+    
+</body>
+</html>
+tasks.py[LINE:44]# INFO     [2016-10-12 07:26:30,772]  Message sent successfully.
+tasks.py[LINE:27]# INFO     [2016-10-12 07:28:25,307]  The result found in the database in 0.004058361053466797 seconds.
+tasks.py[LINE:34]# DEBUG    [2016-10-12 07:28:25,328]  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Результаты поиска</title>
+</head>
+<body>
+    <h1>Результаты по запросу: "Гарри"</h1>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Мальчик, который выжил"<br> Страница: 2.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Мальчик, который выжил"<br> Страница: 3.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и философский камень"</strong><br>Часть: "Философский камень"<br> Раздел: "1"<br> Глава: "Исчезнувшее стекло"<br> Страница: 4.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и узник Азкабана"</strong><br>Часть: "Узник Азкабана"<br> Раздел: "1"<br> Глава: "Совиная почта"<br> Страница: 1.</li>
+        </ul>
+    
+        <ul>
+            <li>Книга: <strong>"Гарри Поттер и узник Азкабана"</strong><br>Часть: "Узник Азкабана"<br> Раздел: "1"<br> Глава: "Большая ошибка тетушки Мардж"<br> Страница: 2.</li>
+        </ul>
+    
+</body>
+</html>
+tasks.py[LINE:44]# INFO     [2016-10-12 07:28:27,092]  Message sent successfully.
+tasks.py[LINE:27]# INFO     [2016-10-12 07:30:33,596]  The result found in the database in 0.004108905792236328 seconds.
+tasks.py[LINE:34]# DEBUG    [2016-10-12 07:30:33,617]  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Search results</title>
+</head>
+<body>
+    <h1>Results for: "Только стоящие на камине фотографии"</h1>
+    
+        <ul>
+            <li>Book: <strong>"Гарри Поттер и философский камень"</strong><br>Part: "Философский камень"<br> Section: "1"<br> Chapter: "Исчезнувшее стекло"<br> Page: 4.</li>
+        </ul>
+    
+</body>
+</html>
+tasks.py[LINE:44]# INFO     [2016-10-12 07:30:35,487]  Message sent successfully.
+tasks.py[LINE:27]# INFO     [2016-10-12 07:30:52,901]  The result found in the database in 0.012435674667358398 seconds.
+tasks.py[LINE:34]# DEBUG    [2016-10-12 07:30:52,943]  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Search results</title>
+</head>
+<body>
+    <h1>Results for: "Гарри"</h1>
+    
+        <ul>
+            <li>Book: <strong>"Гарри Поттер и философский камень"</strong><br>Part: "Философский камень"<br> Section: "1"<br> Chapter: "Мальчик, который выжил"<br> Page: 2.</li>
+        </ul>
+    
+        <ul>
+            <li>Book: <strong>"Гарри Поттер и философский камень"</strong><br>Part: "Философский камень"<br> Section: "1"<br> Chapter: "Мальчик, который выжил"<br> Page: 3.</li>
+        </ul>
+    
+        <ul>
+            <li>Book: <strong>"Гарри Поттер и философский камень"</strong><br>Part: "Философский камень"<br> Section: "1"<br> Chapter: "Исчезнувшее стекло"<br> Page: 4.</li>
+        </ul>
+    
+        <ul>
+            <li>Book: <strong>"Гарри Поттер и узник Азкабана"</strong><br>Part: "Узник Азкабана"<br> Section: "1"<br> Chapter: "Совиная почта"<br> Page: 1.</li>
+        </ul>
+    
+        <ul>
+            <li>Book: <strong>"Гарри Поттер и узник Азкабана"</strong><br>Part: "Узник Азкабана"<br> Section: "1"<br> Chapter: "Большая ошибка тетушки Мардж"<br> Page: 2.</li>
+        </ul>
+    
+</body>
+</html>
+tasks.py[LINE:44]# INFO     [2016-10-12 07:30:54,655]  Message sent successfully.
+tasks.py[LINE:27]# INFO     [2016-10-12 07:32:12,640]  The result found in the database in 0.003814220428466797 seconds.
+tasks.py[LINE:34]# DEBUG    [2016-10-12 07:32:12,653]  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Search results</title>
+</head>
+<body>
+    <h1>Results for: "Только стоящие на камине фотографии"</h1>
+    
+        <ul>
+            <li>Book: <strong>"Гарри Поттер и философский камень"</strong><br>Part: "Философский камень"<br> Section: "1"<br> Chapter: "Исчезнувшее стекло"<br> Page: 4.</li>
+        </ul>
+    
+</body>
+</html>
+tasks.py[LINE:44]# INFO     [2016-10-12 07:32:14,440]  Message sent successfully.
+views.py[LINE:18]# ERROR    [2016-10-12 07:53:50,727]  en
+tasks.py[LINE:27]# INFO     [2016-10-12 07:53:50,778]  The result found in the database in 0.0013532638549804688 seconds.
+tasks.py[LINE:34]# DEBUG    [2016-10-12 07:53:50,792]  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Search results</title>
+</head>
+<body>
+    <h1>Results for: "Гарри"</h1>
+    
+        <ul>
+            <li>Book: <strong>"Гарри Поттер и философский камень"</strong><br>Part: "Философский камень"<br> Section: "1"<br> Chapter: "Мальчик, который выжил"<br> Page: 2.</li>
+        </ul>
+    
+        <ul>
+            <li>Book: <strong>"Гарри Поттер и философский камень"</strong><br>Part: "Философский камень"<br> Section: "1"<br> Chapter: "Мальчик, который выжил"<br> Page: 3.</li>
+        </ul>
+    
+        <ul>
+            <li>Book: <strong>"Гарри Поттер и философский камень"</strong><br>Part: "Философский камень"<br> Section: "1"<br> Chapter: "Исчезнувшее стекло"<br> Page: 4.</li>
+        </ul>
+    
+        <ul>
+            <li>Book: <strong>"Гарри Поттер и узник Азкабана"</strong><br>Part: "Узник Азкабана"<br> Section: "1"<br> Chapter: "Совиная почта"<br> Page: 1.</li>
+        </ul>
+    
+        <ul>
+            <li>Book: <strong>"Гарри Поттер и узник Азкабана"</strong><br>Part: "Узник Азкабана"<br> Section: "1"<br> Chapter: "Большая ошибка тетушки Мардж"<br> Page: 2.</li>
+        </ul>
+    
+</body>
+</html>
+tasks.py[LINE:44]# INFO     [2016-10-12 07:53:52,931]  Message sent successfully.
+views.py[LINE:18]# ERROR    [2016-10-12 08:40:29,545]  ru
+tasks.py[LINE:28]# INFO     [2016-10-12 08:40:29,600]  The result found in the database in 0.005005359649658203 seconds.
+tasks.py[LINE:47]# INFO     [2016-10-12 08:40:31,497]  Message sent successfully.
+views.py[LINE:18]# ERROR    [2016-10-12 08:42:34,446]  ru
+views.py[LINE:18]# ERROR    [2016-10-12 08:43:07,708]  ru
+tasks.py[LINE:28]# INFO     [2016-10-12 08:43:07,740]  The result found in the database in 0.02101731300354004 seconds.
+tasks.py[LINE:45]# INFO     [2016-10-12 08:43:09,613]  Message sent successfully.
+views.py[LINE:18]# ERROR    [2016-10-12 08:43:26,314]  en
+tasks.py[LINE:28]# INFO     [2016-10-12 08:43:26,337]  The result found in the database in 0.016551494598388672 seconds.
+tasks.py[LINE:45]# INFO     [2016-10-12 08:43:28,118]  Message sent successfully.

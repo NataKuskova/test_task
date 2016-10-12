@@ -15,3 +15,17 @@ form #id_mail{
     padding: 5px 10px;
     margin-top: 10px;
 }
+.lang{
+    color: #000;
+    text-decoration: none;
+    background-color: #e4e4e4;
+    padding: 5px 8px;
+    margin-bottom: 5px;
+    display: inline-block;
+    -moz-transition: background-color 0.3s 0.1s ease;
+    -o-transition: background-color 0.3s 0.1s ease;
+    -webkit-transition: background-color 0.3s 0.1s ease;
+}
+.lang:hover{
+    background-color: #d0d0d0;
+}
