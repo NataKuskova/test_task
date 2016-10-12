@@ -6,7 +6,7 @@ from django.core.mail import send_mail
 from django.template.response import SimpleTemplateResponse
 from celery.exceptions import SoftTimeLimitExceeded
 from time import time
-from django.utils.translation import activate
+from django.utils.translation import activate, ugettext_lazy as _
 from search_engine.models import *
 
 logger = logging.getLogger('custom')
@@ -18,7 +18,7 @@ logger.setLevel(logging.DEBUG)
 @shared_task
 def send_message(text, mail, lang):
     page = []
-    subject = 'Результаты поиска.'
+    subject = _('Результаты поиска.')
     start_time = time()
     from_email = 'natasha.kuskova@gmail.com'
     # try:

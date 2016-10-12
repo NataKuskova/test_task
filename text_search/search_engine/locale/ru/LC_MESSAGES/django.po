@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-12 06:25+0000\n"
+"POT-Creation-Date: 2016-10-12 09:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,6 +28,10 @@ msgstr "Что мы будем искать в книгах?"
 msgid "Ваш e-mail для получения результатов поиска"
 msgstr "Ваш e-mail для получения результатов поиска"
 
+#: search_engine/tasks.py:21 templates/message.html:6
+msgid "Результаты поиска."
+msgstr "Результаты поиска."
+
 #: templates/index.html:7
 msgid "Добро пожаловать в поискову систему книг!"
 msgstr "Добро пожаловать в поискову систему книг!"
@@ -35,10 +39,6 @@ msgstr "Добро пожаловать в поискову систему кн�
 #: templates/index.html:14
 msgid "Поиск"
 msgstr "Поиск"
-
-#: templates/message.html:6
-msgid "Результаты поиска"
-msgstr "Результаты поиска"
 
 #: templates/message.html:9
 msgid "Результаты по запросу"
@@ -68,10 +68,13 @@ msgstr "Страница"
 msgid "Поиск запущен, по окончанию результат будет отправлен на Ваш e-mail"
 msgstr "Поиск запущен, по окончанию результат будет отправлен на Ваш e-mail"
 
-#: text_search/settings.py:178
+#: text_search/settings.py:179
 msgid "Russian"
 msgstr "Русский"
 
-#: text_search/settings.py:179
+#: text_search/settings.py:180
 msgid "English"
 msgstr "Английский"
+
+#~ msgid "Результаты поиска"
+#~ msgstr "Результаты поиска"
